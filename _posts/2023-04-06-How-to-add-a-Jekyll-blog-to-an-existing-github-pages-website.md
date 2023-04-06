@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to add a Jekyll blog to an existing github pages website"
-date:   2023-04-06
+date:   2023-04-06 09:00:00 +0100
 tags: Jekyll blog github-page
 ---
 
