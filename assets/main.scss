@@ -24,4 +24,9 @@ body{
 
 /* load _sass/minima.scss */
 @import "minima";
+.site-footer {border: none;}
+.site-header {border: none;}
+.site-title {font-size: $base-font-size;}
+.footer-col-3{text-align: right;}
+.svg-icon{vertical-align: middle;}
 

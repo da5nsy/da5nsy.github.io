@@ -3,11 +3,9 @@ layout: default
 title: Blog
 ---
 
-<ul>
-  {% for post in site.posts %}
-	<small>{{ post.date | date: "%Y-%m-%d" }}</small>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	{{ post.excerpt }}
-	</br>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<small>{{ post.date | date: "%Y-%m-%d" }}</small>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{{ post.excerpt }}
+</br>
+{% endfor %}
