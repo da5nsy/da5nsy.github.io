@@ -19,7 +19,7 @@ With these the idea is that everything is put onto "paper" with lots of cross-re
 
 You also get pretty graphs like this that show the various connections between all the things you've been thinking about.
 
-![](https://cdn.fosstodon.org/media_attachments/files/109/842/611/209/569/624/original/85df26571294934a.png)
+![a logseq graph](https://cdn.fosstodon.org/media_attachments/files/109/842/611/209/569/624/original/85df26571294934a.png)
 
 Of the available options I personally prefer logseq, because it is open source, and the underlying files are just markdown files, and so you're not locked into the system at all - it would be fairly easy to pick up your stuff and move to a different system.
 
@@ -45,7 +45,7 @@ I created a git repo and started a logseq graph in it, and then told git to igno
 
 The other part of the solution was social - asking people to use the system in a specific way that would allow all of our notes to co-exist and interact without issue.
 
-They key element was asking people to all use a standard page title format, and to avoid using the built-in journal pages. My proposed format was `YYYY-MM-DD/Name`, which ensures that everything is date ordered, even if you're just ordering it alphabetically in a file browser, and should avoid clashes. What happens when we have two people in the lab with the same name? We'll cross that bridge when we get to it.
+They key element was asking people to all use a standard page title format, and to avoid using the built-in journal pages. My proposed format was `YYYY-MM-DD/NAME`, which ensures that everything is date ordered, even if you're just ordering it alphabetically in a file browser, and should avoid clashes. What happens when we have two people in the lab with the same name? We'll cross that bridge when we get to it.
 
 Additionally, I asked people to add an author tag (`author:: NAME` in the metadata section of the pages they made) and to tag the date in the note itself `[[YYYY-MM-DD]]` so that future us could reliably find things by author and by date.
 
