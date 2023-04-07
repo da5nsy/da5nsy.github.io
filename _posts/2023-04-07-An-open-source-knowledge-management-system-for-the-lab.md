@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An open-source knowledge management system for the lab"
-date:   2023-04-06 17:00:00 +0100
+date:   2023-04-07 09:00:00 +0100
 tags: KMS knowledge-management-system logseq
 ---
 
