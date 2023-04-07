@@ -5,7 +5,7 @@ date:   2023-04-06 17:00:00 +0100
 tags: KMS knowledge-management-system logseq
 ---
 
-_This blog is adapted from an informal talk I gave at the [Open Science Retreat](https://open-science-retreat.gitlab.io/). Thanks to those who joined!_
+_This blog is adapted from an informal talk I gave at the [Open Science Retreat](https://open-science-retreat.gitlab.io/). Thanks to those who joined and asked cool questions!_
 
 Last summer two things happened in quick succession - the NIH mandated that we stop using paper lab notebooks, and my PI found an issue in some data that that had been collected and pre-processed ~10 years ago. 
 
@@ -47,7 +47,9 @@ The other part of the solution was social - asking people to use the system in a
 
 They key element was asking people to all use a standard page title format, and to avoid using the built-in journal pages. My proposed format was `YYYY-MM-DD/Name`, which ensures that everything is date ordered, even if you're just ordering it alphabetically in a file browser, and should avoid clashes. What happens when we have two people in the lab with the same name? We'll cross that bridge when we get to it.
 
-Coupled with frequent tagging of projects, people, and equipment, this should mean that it will be fairly easy to quickly look up almost anything on the fly at a later date!  &#129310;
+Additionally, I asked people to add an author tag (`author:: NAME` in the metadata section of the pages they made) and to tag the date in the note itself `[[YYYY-MM-DD]]` so that future us could reliably find things by author and by date.
+
+Coupled with frequent tagging of projects, other people, and equipment, this should mean that it will be fairly easy to quickly look up almost anything on the fly!  &#129310;
 
 <br>
 
@@ -68,3 +70,8 @@ A: No. Though if it's useful we can give them access to our logseq repo, so that
 **Q: Why use this system rather than something like [eLabFTW](https://www.elabftw.net/)?**
 
 A: eLabFTW looks awesome (thanks Lukas for telling me about it!) and I can see how it would be useful for certain research groups. It looks like the technical onboarding ramp would be gentler (no need to know markdown or git), and for certain types of scientists it seems really well set up to integrate things like chemical diagrams, but for us we preferred to use a system that uses markdown under the hood, for greater ease flexibility down the road.
+
+**Q: Do people follow the formatting requests?**
+
+A: That's a work in progress...
+
