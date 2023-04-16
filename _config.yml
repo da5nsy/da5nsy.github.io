@@ -27,7 +27,7 @@ url: "https://www.dannygarside.co.uk" # the base hostname & protocol for your si
 github_username:  da5nsy
 mastodon:
 - username: da5nsy
-  instance: fosstodon.org
+  instance: social.coop
 
 permalink: /blog/:title/
 
