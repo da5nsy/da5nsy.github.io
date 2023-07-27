@@ -5,7 +5,9 @@ date:   2023-04-06 09:00:00 +0100
 tags: Jekyll blog github-page
 ---
 
-Yesterday I added a blog to my website. I couldn't find clear instructions for doing this, and I ended up going down several dead ends, so here's what worked for me.
+_I wrote this blog at the [Open Science Retreat](https://open-science-retreat.gitlab.io/). Thanks to the organizers for giving me the time and inspiration to finally get this done!_
+
+Yesterday I added a blog to my website, because I wanted to write a [blog post](https://www.dannygarside.co.uk/blog/An-open-source-knowledge-management-system-for-the-lab/). I couldn't find clear instructions for doing this, and I ended up going down several dead ends, so here's what worked for me.
 
 I already had a [website](https://web.archive.org/web/20230313161905/http://www.dannygarside.co.uk/), which was very simple (pretty much just a [single html page](https://github.com/da5nsy/da5nsy.github.io/tree/57054fbaedcccba7a9f12a76835fa4d96db724e4)), but I recently started wanting to write a blog. I'd previously written some things on Medium, but I wanted to move away from using a third party, and I figured "how hard could it be to make one on my website?". Spoiler: it took some faffing. 
 
