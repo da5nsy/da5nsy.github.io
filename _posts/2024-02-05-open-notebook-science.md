@@ -40,5 +40,5 @@ Welcome to the journey.
 Welcome to this little experiment of mine. 
 If you've read this far, [you've read this far](https://www.youtube.com/watch?v=cU7dDtVB7aE). 🎶
 
-It will be at: www.dannygarside.co.uk/open-notebook
+It will be at: [dannygarside.co.uk/open-notebook](https://www.dannygarside.co.uk/open-notebook).
 
