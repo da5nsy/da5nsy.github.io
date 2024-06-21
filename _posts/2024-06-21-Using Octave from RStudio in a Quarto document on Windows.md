@@ -47,6 +47,7 @@ More text and then import the generated figure from Octave. ![My Plot of the sin
 A couple of oddities:
 - I tried updating my version of Octave (to 9.2.0) but then when I tried to Render, it just hung forever.
 - If I don't include that little r codechunk before, I get an error:
+
 ```
 Starting python3 kernel...Traceback (most recent call last):
   File "C:\PROGRA~1\RStudio\resources\app\bin\quarto\share\jupyter\jupyter.py", line 21, in <module>
