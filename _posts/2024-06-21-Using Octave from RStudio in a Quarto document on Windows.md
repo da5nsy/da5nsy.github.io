@@ -8,7 +8,7 @@ tags: Octave, RStudio, Quarto, Windows, Open Science
 _Just putting this out there in the vague hope that someone (possibly future me) finds it instead of wasting a whole bunch of time trying to work this out._
 
 To use a different engine for running code in a Quarto document you need to manually set the path to that engine.
-Lots of places quote the path for Octave as `'/usr/local/opt/octave/bin/octave'` or some version of that, but I think that much be what it is on Linux.
+Lots of places quote the path for Octave as `'/usr/local/opt/octave/bin/octave'` or some version of that, but I think that must be what it is on Linux.
 And sure, it makes sense that if you're using Octave (open source), RStudio (open source), and Quarto (open source), you might be on an open source operating system, but I'm not.
 So, the path _I_ needed was: `C:/Program Files/GNU Octave/Octave-6.1.0/mingw64/bin/octave-cli.exe`
 
