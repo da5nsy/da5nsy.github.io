@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Housing Co-op Tech"
-date:   2025-10-09 09:00:00 +0100
+date:   2025-09-10 09:00:00 +0100
 tags: co-op, tech
 ---
 
