@@ -58,6 +58,13 @@ I think we pay some money for this, but I think because I wanted to rather than 
 Y'know how I mentioned that Cryptpad was more secure than we need? This includes having a calendar system which is so secure that you can't invite people to your events. So we opted for _not that_.
 Instead we decided to actually use a Nextcloud host - https://thegood.cloud/. That's right - Nextcloud includes a calendar system. "Why not use Nextcloud for both files and calendar?" I hear you say! Well, https://thegood.cloud/ offers a free tier but you can't have shared drives at that level, which means we can't really do collaborative editing with it. So... we have a single free account on https://thegood.cloud/ just for calendar purposes, which we can all log into (or set up Thunderbird etc. to edit the events indirectly - though, note: how to set that up was not obvious...) and stick with cryptpad for docs.
 
+## Video-calls
+
+Sometimes we want to meet and argue about decision-making processes and our own personal opinions on how best to bring about the downfall of capitalism, but we can't find a time where can all meet in person because we're busy London millenials with social calendars which make eyes bleed.
+
+So, having a "place" where we can "meet" digitally is handy.
+I personally have access to [meet.coop](https://meet.coop) through [social.coop](https://social.coop) ([info](https://wiki.social.coop/wiki/Tutorials#Using_partner_platforms)) AND through [Radical Routes](https://www.radicalroutes.org.uk) so, we're rich in meet.coop accounts, but in practice quite often someone's computer won't connect to the audio or there's some other bug, and so we switch to calling through Signal which we have anyhow and which works more reliably though it's a bit less feature rich.
+
 ## Conclusion
 
 So, that's everything. 
