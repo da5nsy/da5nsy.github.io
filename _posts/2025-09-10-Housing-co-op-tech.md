@@ -16,7 +16,7 @@ My guiding principles were:
 So, I wanted open-source tools, ideally hosted by other co-ops. 
 And ideally in a way which would mean that I wouldn't pull my own hair out trying to use them, and recognising that the capacity for "determined button pressing"™️ is lower among some of my housing co-op comrades than it is for me. I'm the sort of person who accidentally joins the Digital working group of Radical Routes because I wanted to fix a typo on the website and now I think I'm several steps down the path to becoming a sys admin (to be clear: I have no idea what I'm doing).
 
-So, we need[1] a few things to be able to operate as an organisation in the modern world:
+So, we need[^1] a few things to be able to operate as an organisation in the modern world:
 - a place to chat (send memes etc.)
 - a digital address that people _not_ in our ~~cult~~ club can contact us through (an "email address")
 - somewhere to put documents that we're working on, ideally somewhere we can simultaneously edit them together through a browser (isn't it wild that this went from "not a thing. Are you ok?" to "obviously this is normal and needed" within a few years!?)
@@ -48,7 +48,7 @@ Send us jokes pls: perennial@riseup.net
 ## Docs
 
 We briefly had a Google Drive and I hope that God will forgive me when my time comes.
-I then spent a long time looking into Nextcloud and eventually concluded that it looks pretty cool but we'd have to pay a solid chunk of cash for it and it was probably more eavyweight than we needed - we're not writing our theses, we're just jotting down some meeting notes [2].
+I then spent a long time looking into Nextcloud and eventually concluded that it looks pretty cool but we'd have to pay a solid chunk of cash for it and it was probably more eavyweight than we needed - we're not writing our theses, we're just jotting down some meeting notes [^2].
 In the end (for now) we settled on CryptPad - this is a super secure (way more secure than we need, but hey ho) "pad" (things like etherpad and hedgedocs) and also a "drive" like Google Drive where you can store a bunch of different files in a directory structure.
 You can upload any format you want, but a subset of those files will be edittable in the browser.
 I think we pay some money for this, but I think because I wanted to rather than because we had to for a specific feature (perhaps I wanted some "faster support" at some point?)
@@ -70,6 +70,7 @@ I personally have access to [meet.coop](https://meet.coop) through [social.coop]
 So, that's everything. 
 I'll update this when I remember things I've forgotten or people ask me questions about it :+1:
 
-[1]: Do we ever really "need" anything?
-[2]: If we _do_ go down this route in the future we'll be getting it hosted by [Web Architects Co-op](https://www.webarchitects.coop/) or [Autonomic Co-op](https://autonomic.zone/), both of whom seem lovely and rad. And then we can probably get them to host versions of all the above for us, and possibly even do SSO, which would make things a whole lot easier.
+[^1]: Do we ever really "need" anything?
+
+[^2]: If we _do_ go down this route in the future we'll be getting it hosted by [Web Architects Co-op](https://www.webarchitects.coop/) or [Autonomic Co-op](https://autonomic.zone/), both of whom seem lovely and rad. And then we can probably get them to host versions of all the above for us, and possibly even do SSO, which would make things a whole lot easier.
 
