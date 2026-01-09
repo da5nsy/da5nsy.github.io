@@ -7,7 +7,7 @@ tags: housing co-ops, tech, software, Hugo, codeberg, website, tech co-ops
 
 I'm involved in starting a housing co-op, and as of today we have a (shitty placeholder) [website](https://perennialhousingcoop.uk/)! 🎉
 
-I wanted to have it hosted by [Web Architects](https://www.webarchitects.coop/) because they're a cool tech co-op doing good thing, and also because then I could copy the system that we use over on [Corvus Co-op](https://corvus-coop.org/). [Jez](https://erambler.co.uk/) (who set up the Corvus Co-op website) lent me a hand, and along the way taught me what SSH was, which was a whole lot of fun. I am now unstoppable.
+I wanted to have it hosted by [Web Architects](https://www.webarchitects.coop/) because they're a cool tech co-op doing good things, and also because then I could copy the system that we use over on [Corvus Co-op](https://corvus-coop.org/). [Jez](https://erambler.co.uk/) (who set up the Corvus Co-op website) lent me a hand, and along the way taught me what SSH was, which was a whole lot of fun. I am now unstoppable.
 
 Here's my notes in case I/you/whoever wants to do the same again.
 Not all of these are necessary.
@@ -24,7 +24,7 @@ Then they'll send you some SSH credentials.
 
 Following instructions from: https://gohugo.io/getting-started/quick-start/
 
--`hugo version`
+- `hugo version`
     - hugo v0.152.2-6abdacad3f3fe944ea42177844469139e81feda6+extended linux/amd64 BuildDate=2025-10-24T15:31:49Z VendorInfo=snap:0.152.2
 - `git clone https://codeberg.org/da5nsy/perennialhousingcoop`
 - `cd perennialhousingcoop/`
@@ -58,13 +58,13 @@ Following instructions from: https://gohugo.io/getting-started/quick-start/
 
 ## 7. Make the website build on Codeberg
 
-- copied https://codeberg.org/corvus-coop/pages-source/src/branch/main/.forgejo/workflows/build.yaml into the repo
-- activated actions on the repo (https://codeberg.org/da5nsy/perennialhousingcoop/settings/units)
+- copied [https://codeberg.org/corvus-coop/pages-source/src/branch/main/.forgejo/workflows/build.yaml](https://codeberg.org/corvus-coop/pages-source/src/branch/main/.forgejo/workflows/build.yaml) into the repo
+- activated actions on the repo ([https://codeberg.org/da5nsy/perennialhousingcoop/settings/units](https://codeberg.org/da5nsy/perennialhousingcoop/settings/units))
 - did a test `git push` to get the action to run
     - build successful
     - deploy unsuccessful (as expected, because we haven't given the Web Architects server any reason to trust this repo yet)
-- add variables (https://codeberg.org/da5nsy/perennialhousingcoop/settings/actions/variables)
-    - copied from https://codeberg.org/corvus-coop/pages-source/settings/actions/variables , changing Corvus -> Perennial etc.
+- add variables ([https://codeberg.org/da5nsy/perennialhousingcoop/settings/actions/variables](https://codeberg.org/da5nsy/perennialhousingcoop/settings/actions/variables))
+    - copied from [https://codeberg.org/corvus-coop/pages-source/settings/actions/variables](https://codeberg.org/corvus-coop/pages-source/settings/actions/variables), changing Corvus -> Perennial etc.
     
 ## 8. Make the build website get pushed to the Web Arch server. 
 
