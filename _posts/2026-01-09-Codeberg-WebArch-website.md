@@ -71,10 +71,10 @@ Following instructions from: https://gohugo.io/getting-started/quick-start/
 - generate a new (different SSH key) to give to codeberg (so that WebArch knows to trust this codeberg repo)
     - `ssh-keygen`
     - "Enter file in which to save the key (/home/danny/.ssh/id_ed25519):" `/home/danny/Documents/perennialhousingcoop/id_ed25519`
-    - Add `id*` to the `.gitignore` file (so we don't accidentally commit our secrets)
-    - `awk '{printf "%s\\n", $0}' < id_ed25519` (textual representation of key)
-        - copy this into https://codeberg.org/da5nsy/perennialhousingcoop/settings/actions/secrets as `DEPLOY-KEY`
-    - from danny@hades:~/Documents/perennialhousingcoop$ `ssh-copy-id -i id_ed25519 perennial@webarch1.co.uk` (this copies the key which is in the repo, rather than the computer's default one which also has the same name)
+- Add `id*` to the `.gitignore` file (so we don't accidentally commit our secrets)
+- `awk '{printf "%s\\n", $0}' < id_ed25519` (textual representation of key)
+    - copy this into https://codeberg.org/da5nsy/perennialhousingcoop/settings/actions/secrets as `DEPLOY-KEY`
+- from danny@hades:~/Documents/perennialhousingcoop$ `ssh-copy-id -i id_ed25519 perennial@webarch1.co.uk` (this copies the key which is in the repo, rather than the computer's default one which also has the same name)
     
 ## 9. Wrapping up
 
