@@ -32,7 +32,6 @@ mastodon:
 permalink: /blog/:title/
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
