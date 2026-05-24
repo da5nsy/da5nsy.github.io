@@ -9,6 +9,8 @@ _This is a live post - I may update it. Check the [git history](https://github.c
 
 I've wanted to tell a few people about the tech we're using for Perennial Housing Co-op (don't look it up, there's nothing public yet, but there will be "soon"! ✨ tl;dr I'm part of a group setting up a Radical Routes housing co-op in NE London) recently, because I spent a while working it out and while it's not perfect I think it's relatively rad.
 
+<!--more-->
+
 My guiding principles were: 
 1. fuck Google
 2. ... and _all the other fuckers too_

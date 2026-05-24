@@ -9,6 +9,8 @@ I'm involved in starting a housing co-op, and as of today we have a (shitty plac
 
 I wanted to have it hosted by [Web Architects](https://www.webarchitects.coop/) because they're a cool tech co-op doing good things, and also because then I could copy the system that we use over on [Corvus Co-op](https://corvus-coop.org/). [Jez](https://erambler.co.uk/) (who set up the Corvus Co-op website) lent me a hand, and along the way taught me what SSH was, which was a whole lot of fun. I am now unstoppable.
 
+<!--more-->
+
 Here's my notes in case I/you/whoever wants to do the same again.
 Not all of these are necessary.
 Note: I'm on Ubuntu 24.04.3 LTS, with many things installed already (git, hugo,...) so if you're doing this fresh you may need to install bits! 

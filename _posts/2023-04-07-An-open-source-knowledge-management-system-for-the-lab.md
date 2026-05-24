@@ -13,6 +13,8 @@ Something had been done wrong during the preprocessing, but of course the people
 
 And so my PI turned to me and said something along the lines of _"Hey Danny, you're interested in this lab infrastructure stuff, and reproducibility, can you look into something that could replace lab notebooks, and also mean that I never have to do that again?"_.
 
+<!--more-->
+
 I'd been trying out different note taking systems for a while (my PhD notes are one very long ms word document...) and I'd recently become interested in "second brain" systems, like obsidian, logseq, Roam Research, Athens Research etc.
 
 With these the idea is that everything is put onto "paper" with lots of cross-references, which turns out to be rather intuitive and satisfying for many people, and can make it easier to recall information quickly and reliably. 

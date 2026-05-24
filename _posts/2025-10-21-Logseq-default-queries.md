@@ -9,6 +9,8 @@ I use logseq most days. It keeps my entire life in (something resembling) order.
 
 To make it work for me I've set up several default queries. Default queries show their results at the bottom of today's journal page. You can add them by editting the `logseq/config.edn` file. Here's what I've got:
 
+<!--more-->
+
 ```
  ;; The following queries will be displayed at the bottom of today's journal page.
  ;; The "NOW" query returns tasks with "NOW" or "DOING" status.
