@@ -125,3 +125,18 @@
   white-space: pre;
   word-wrap: normal;
 }
+
+/* Inline code - subtle background */
+code {
+  background: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Don't double-style code inside highlight blocks */
+.highlight code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
