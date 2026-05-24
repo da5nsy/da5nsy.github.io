@@ -9,6 +9,8 @@ Today I'm starting something that I've been daydreaming about for years.
 Feeling like I should be doing for years.
 Today I'm making my work notes public. 
 
+<!--more-->
+
 During my PhD I got into the open science movement, and I've been increasingly radical in thinking that science should be done publicly. 
 Sure there's some arguments for why not everything should be done in public, but I'm increasingly of the opinion that it should be public by default.
 

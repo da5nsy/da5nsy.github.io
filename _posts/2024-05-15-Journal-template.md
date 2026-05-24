@@ -7,6 +7,8 @@ tags: notetaking, journaling, logseq
 
 I use logseq for my daily note-taking (and [for my work](https://www.dannygarside.co.uk/blog/An-open-source-knowledge-management-system-for-the-lab/)!) and I have a template which I have honed over the years. It will continue to evolve, but here's what it looks like right now.
 
+<!--more-->
+
 ```
 - Daily template
   template:: Daily Template

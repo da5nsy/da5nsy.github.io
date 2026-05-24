@@ -12,6 +12,8 @@ One especially sucky thing was that I didn't have my Signal chats backed up.
 Some people like to treat their messages as ephemeral. I don't. Not my style at all.
 So I (now) have a backup system that runs automatically every night.
 
+<!--more-->
+
 Here's how it currently works.
 _Disclaimer: This setup won't win any prizes for security/privacy. That's not my priority. For some people, those are priorities. They probably won't like this set up[^1]._
 - I turn on Signal backups

@@ -12,6 +12,8 @@ Lots of places quote the path for Octave as `'/usr/local/opt/octave/bin/octave'`
 And sure, it makes sense that if you're using Octave (open source), RStudio (open source), and Quarto (open source), you might be on an open source operating system, but I'm not.
 So, the path _I_ needed was: `C:/Program Files/GNU Octave/Octave-6.1.0/mingw64/bin/octave-cli.exe`
 
+<!--more-->
+
 Full MWE:
 ````
 
