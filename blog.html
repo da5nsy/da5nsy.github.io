@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: blogheader
 title: Blog
 ---
 
 {% for post in site.posts %}
 <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 {{ post.excerpt }}
-{% if post.content != post.excerpt %}
 <p style="text-align: right;"><a href="{{ post.url | relative_url }}">Continue reading</a></p>
-{% endif %}
 <br>
 {% endfor %}

@@ -31,3 +31,12 @@ a { color: #0066cc; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 img { max-width: 100%; }
+
+/* Navigation */
+nav {
+  margin-bottom: 5em;
+}
+
+nav a {
+  text-decoration: none;
+}
