@@ -5,11 +5,15 @@ date:   2025-10-21 19:00:00 +0100
 tags: logseq, tech
 ---
 
+*Note: see the history of this page [here](https://github.com/da5nsy/da5nsy.github.io/commits/master/_posts/2025-10-21-Logseq-default-queries.md).*
+
 I use logseq most days. It keeps my entire life in (something resembling) order. I rely on it quite heavily. I also find it quite fun.
 
 To make it work for me I've set up several default queries. Default queries show their results at the bottom of today's journal page. You can add them by editting the `logseq/config.edn` file. Here's what I've got:
 
 <!--more-->
+
+*Note: At time of writing, I'm (still, stubbornly) using Logseq version 0.10.15 and so my default version would've looked something like [this](https://github.com/logseq/logseq/blob/0.10.15/src/resources/templates/config.edn) originally.*
 
 ```
  ;; The following queries will be displayed at the bottom of today's journal page.
@@ -24,7 +28,8 @@ To make it work for me I've set up several default queries. Default queries show
         :where
         [?b :block/priority "A"]
         [?b :block/marker ?m]
-        [(contains? #{"TODO" "DOING" "WAITING"} ?m)]]
+        [(contains? #{"TODO" "DOING" "WAITING"} ?m)]
+        (not [?b :block/marker "DONE"])]
    :group-by-page? false
    :breadcrumb-show? false
    }
