@@ -36,7 +36,7 @@ I set a hostname (something like "scioptorrentbox"), a username (something like 
 
 ## 2. Put the SD card into the pi, and turn it on
 
-To be safe, I like to connect the power cable to the pi side first, and then to the power provider, just to minimise the chances of [shorting something](XXXXXXXXX).
+To be safe, I like to connect the power cable to the pi side first, and then to the power provider, just to minimise the chances of [shorting something](https://social.coop/@da5nsy/116824280369217307).
 It's probably also wise to get a case to further reduce the chances of this, or, as I do, use an old take-away container. This does not align with my housemates interior design aspirations, but it works.
 
 ## 3. Access the pi via `ssh`
