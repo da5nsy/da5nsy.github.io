@@ -15,7 +15,7 @@ Thankfully, my house-mate was recently gifted an assortment of old Raspberry Pis
 Add to that an old box of SD cards and memory sticks and some USB power supplies and we're off to the races.
 
 I've got a 3B+ up and running at home, but there are a few very old models which I wanted to see if I could do anything useful with.
-They're quite underpowered by today's computational standards, and so doing many of the [projects that people often use Raspberry Pis for](XXXXXXXXXX) is a bit challenging.
+They're quite underpowered by today's computational standards, and so doing many of the [projects that people often use Raspberry Pis for](https://projects.raspberrypi.org) is a bit challenging.
 Might they have _just_ enough umph to run a torrent client though? Turns out - yes!
 
 At some point I'd love to create a neat "image" (so that folks could just download a thing, put it on an SD card, turn on the pi and be good to go), but until I work out how to do that, here's some instructions.
