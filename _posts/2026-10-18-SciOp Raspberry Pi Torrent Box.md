@@ -26,7 +26,7 @@ _Note: I used an LLM to help me work out how to do this. This worked for me, and
 
 ## 1. Install an OS
 
-My main laptop runs Windows 10 (for now...), and so I used the [Windows version of the Raspberry Pi imager]().
+My main laptop runs Windows 10 (for now...), and so I used the Windows version of the [Raspberry Pi imager](https://www.raspberrypi.com/software/).
 
 Through a bit of trial and error I found that the two Raspberry Pis I have don't like micro-SD cards in an converter, and only seem to be happy with an actual full size SD card. I can find no reason for this to be the case, and yet it does seem to be the case :shrug:.
 So, I sacrificed and old SD card which has a retro games emulator on it (sad crying face) and imaged it with XXXXXXXXX.
