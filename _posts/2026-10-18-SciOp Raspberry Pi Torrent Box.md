@@ -22,7 +22,7 @@ At some point I'd love to create a neat "image" (so that folks could just downlo
 
 These are specifically for a Raspberry Pi XXXXXXXXX, though similar instructions will apply to other models. Tweak the OS accordingly, and it should just work[^1].
 
-_Note: I used an LLM to help me work out how to do this. This worked for me, and I hope it works for you, but it comes with zero warranty._
+_Note: I used an LLM to help me work out how to do this. This worked for me, and I hope it works for you, but it comes with less than zero warranty..._
 
 ## 1. Install an OS
 
