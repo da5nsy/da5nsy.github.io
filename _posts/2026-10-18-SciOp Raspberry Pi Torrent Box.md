@@ -80,7 +80,7 @@ sudo chmod 755 /usr/local/bin/qbittorrent-nox
 
 Then, type `qbittorrent`, and hit enter, to run the program.
 
-From another computer, open a web browser and navigate to `http://[user]@[hostname].local:8080`. XXXXXXXX [does this default to 8080?]
+From another computer, open a web browser and navigate to `http://[hostname].local:8080`. XXXXXXXX [does this default to 8080?]
 
 ## 5. Add some torrents from sciop.net!
 
