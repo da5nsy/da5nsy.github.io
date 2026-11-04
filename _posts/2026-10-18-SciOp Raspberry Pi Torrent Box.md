@@ -29,7 +29,7 @@ _Note: I used an LLM to help me work out how to do this. This worked for me, and
 My main laptop runs Windows 10 (for now...), and so I used the Windows version of the [Raspberry Pi imager](https://www.raspberrypi.com/software/).
 
 Through a bit of trial and error I found that the two Raspberry Pis I have don't like micro-SD cards in an converter, and only seem to be happy with an actual full size SD card. I can find no reason for this to be the case, and yet it does seem to be the case :shrug:.
-So, I sacrificed and old SD card which has a retro games emulator on it (sad crying face) and imaged it with XXXXXXXXX.
+So, I sacrificed and old SD card which has a retro games emulator on it (sad crying face) and imaged it with [the raspberry Pi imager](https://www.raspberrypi.com/software/) (I've sometimes found some issues with this - if your Pi doesn't boot after, try manually imaging the SD card with [Rufus](https://rufus.ie) instead).
 The older Raspberry Pis need the 32-bit images, and since we're going to be tight on CPU and can get away without a GUI we can go for the "lite" version which does not have a graphical user interface. XXXXXX old OS? XXXXXX
 
 I set a hostname (something like "scioptorrentbox"), a username (something like "danny"), and a password (something like... haha jk jk. But seriously, probably wise to keep it alphanumeric for this - I had some issues recently which boiled down to having fun characters in passwords on a pi). I keep wifi off (this device doesn't have it), and ssh on (which we'll use later).
