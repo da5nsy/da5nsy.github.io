@@ -7,7 +7,7 @@ tags: co-op, tech
 
 _This is a live post - I may update it. Check the [git history](https://github.com/da5nsy/da5nsy.github.io/commits/master/_posts/2025-09-10-Housing-co-op-tech.md) if you want to see what was said in previous versions_
 
-I've wanted to tell a few people about the tech we're using for Perennial Housing Co-op (don't look it up, there's nothing public yet, but there will be "soon"! ✨ tl;dr I'm part of a group setting up a Radical Routes housing co-op in NE London) recently, because I spent a while working it out and while it's not perfect I think it's relatively rad.
+I've wanted to tell a few people about the tech we're using for [Perennial Housing Co-op](https://perennialhousingcoop.uk/), because I spent a while working it out and while it's not perfect I think it's relatively rad.
 
 <!--more-->
 
