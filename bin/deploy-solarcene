@@ -13,8 +13,3 @@ fi
 rsync -avzc --delete --info=progress2 --dry-run _site-solarcene/ "$DEST"
 read -rp "Push? [y/N] " ok; [[ $ok == y ]] || exit 1
 rsync -avzc --delete-after --info=progress2 _site-solarcene/ "$DEST"
-
-for p in / /blog/ /blog/Codeberg-WebArch-website/; do
-  printf '%-42s %s\n' "$p" \
-    "$(curl -so /dev/null -w '%{http_code}' "https://squeak.solarcene.community/~da5nsy${p}")"
-done
