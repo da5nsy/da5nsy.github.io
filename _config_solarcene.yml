@@ -1,0 +1,5 @@
+# Overlay for squeak.solarcene.community — NOT read by GitHub Pages.
+# Build with: jekyll build --config _config.yml,_config_solarcene.yml
+url: "https://squeak.solarcene.community"
+baseurl: "/~da5nsy"
+destination: _site-solarcene

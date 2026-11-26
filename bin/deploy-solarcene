@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+DEST="${SOLARCENE_DEST:-squeak.solarcene.community:public_html/}"
+
+rm -rf _site-solarcene
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_solarcene.yml
+
+if grep -rhoE '(href|src)="/[^"]*"' _site-solarcene --include='*.html' \
+   | grep -qv '="/~da5nsy/'; then
+  echo "ABORT: root-absolute URLs in _site-solarcene"; exit 1
+fi
+
+rsync -avzc --delete --dry-run _site-solarcene/ "$DEST"
+read -rp "Push? [y/N] " ok; [[ $ok == y ]] || exit 1
+rsync -avzc --delete-after _site-solarcene/ "$DEST"
+
+for p in / /blog/ /blog/Codeberg-WebArch-website/; do
+  printf '%-42s %s\n' "$p" \
+    "$(curl -so /dev/null -w '%{http_code}' "https://squeak.solarcene.community/~da5nsy${p}")"
+done
