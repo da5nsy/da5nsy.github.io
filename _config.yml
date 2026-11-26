@@ -48,6 +48,9 @@ plugins:
 #
 exclude:
 - bin
+- Gemfile
+- Gemfile.lock
+- CNAME
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
